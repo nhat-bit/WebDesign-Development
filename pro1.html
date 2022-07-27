@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css in html</title>
+    <link rel="stylesheet" href="/proj.css" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header>
+        <div class="inner-header container">
+          <a href="" id="logo">Đồ cổ</a>
+          <nav>
+            <ul id="main-menu">
+              <li><a href="./pro1.html">Trang chủ</a></li>
+              <li>
+                <a href="">Sản phẩm</a>
+              </li>
+              <li><a href="./hagia.html">Giảm giá</a></li>
+
+              <li><a href="./lienhe.html">Liên hệ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div id="banner"></div>
+      <div id="content" class="container"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop()) {
+            $("header").addClass("sticky");
+          } else {
+            $("header").removeClass("sticky");
+          }
+        });
+      });
+    </script>
+    <div class="row">
+      <div class="col-12">
+        <h3 style="color: red; text-align: center; font-size: 30px">
+          Sản phẩm mới nhất
+        </h3>
+      </div>
+    </div>
+    <hr class="hr" width="50%" size="3" color="green" />
+
+    <div style="margin: 80px">
+
+      <div
+        style="
+          background-color: rgb(248, 180, 78);
+          width: 22%;
+          padding: 15px;
+          text-align: center;
+          float: left;
+          margin-bottom: 0;
+        "
+      >
+        <img style="width: 100%" src="ima/chiec-binh-co-xanh-trang-duoc-len-men-mau-hong-moonflask-65723.jpg" />
+        <h4>Chiếc bình cổ xanh - trắng được lên men màu hồng Moonflask</h4>
+        <p style="color:rgb(255, 0, 0)"><b>600.000.000đ</b></p>
+      </div>
+      <div
+        style="
+          background-color: rgb(248, 180, 78);
+          width: 22%;
+          padding: 15px;
+          text-align: center;
+          float: left;
+        "
+      >
+        <img style="width: 100%" src="ima/buc-illustrated-folio-do-shah-ba-tu-che-tac-65995.jpg" />
+        <h4>Bức Illustrated Folio do Shah Ba Tư chế tác</h4>
+        <p style="color:rgb(255, 0, 0)"><b>550.000.000đ</b></p>
+      </div>
+      <div
+      style="
+        background-color: rgb(248, 180, 78);
+        width: 22%;
+        padding: 15px;
+        text-align: center;
+        float:left;
+    
+
+      "
+    >
+      <img style="width: 100%" src="ima/tu-dung-cau-long-tu-the-ky-18-65682.jpg" />
+      <h4>Tủ đựng rượu từ thế kỷ 18</h4>
+      <p style="color:rgb(255, 0, 0)"><b>600.000.000đ</b></p>
+    </div>
+      <div
+      style="
+        background-color: rgb(248, 180, 78);
+        width: 22%;
+        padding: 13px;
+        text-align: center;
+        margin-top: 0;
+       float:left;
+      "
+    >
+      <img style="width: 100%" src="ima/chiec-binh-co-co-nien-dai-tu-nha-thanh-trung-quoc-65619.jpg"/>
+      <h4>          <a href="./product.html" style="color: aliceblue"
+        >Chiếc bình cổ thời nhà Thanh, Trung Quốc</a></h4>
+      <p style="color:rgb(255, 0, 0)"><b>500.000.000đ</b></p>
+    </div>
+
+      <div
+      style="
+        background-color: rgb(248, 180, 78);
+        width: 22%;
+        padding: 15px;
+        text-align: center;
+        float: left;
+      "
+    >
+      <img style="width: 100%" src="ima/binh-ba-chan-duoc-lam-bang-vang-tu-thoi-nha-minh-65766.jpg" />
+      <h4><a href="./product.html" style="color:aliceblue"></a>Bình ba chân được làm bằng vàng từ thời nhà Minh</h4>
+      <p style="color:rgb(255, 0, 0)"><b>500.000.000đ</b></p>
+    </div>
+    <div
+    style="
+      background-color: rgb(248, 180, 78);
+      width: 22%;
+      padding: 15px;
+      text-align: center;
+      float: left;
+    "
+  >
+    <img style="width: 100%" src="ima/Co-Vat-Trung-Quoc4.jpeg" />
+    <h4>Một chiếc bình hoa được làm dưới thời trị vì của Hoàng đế Càn Long</h4>
+    <p style="color:rgb(252, 0, 0)"><b>400.000.000đ</b></p>
+  </div>
+  <div
+  style="
+    background-color: rgb(248, 180, 78);
+    width: 22%;
+    padding: 15px;
+    text-align: center;
+    float: left;
+  "
+>
+  <img style="width: 100%" src="ima/Co-Vat-Trung-Quoc6.jpeg" />
+  <h4>Một lọ gốm với thiết kế bên ngoài đặc biệt thời nhà Thanh</h4>
+  <p style="color:rgb(255, 0, 0)"><b>330.000.000đ</b></p>
+</div>
+      <div
+        style="
+          background-color: rgb(248, 180, 78);
+          width: 21%;
+          padding: 17px;
+          text-align: center;
+       
+          float:left;
+         
+        "
+      >
+        <img style="width: 100%" src="ima/chiec-vuong-mien-tiara-65864.jpg" />
+        <h4>Chiếc vương miện Tiara</h4>
+        <p style="color:rgb(255, 0, 0)"><b>1.000.000.000đ</b></p>
+      </div>
+    </div>
+    <hr width="100%" size="50" background-color="rgb(248, 180, 78)" />
+
+    <footer style="width: 1200px" id="footer">
+      <div class="ab" style="background-color: rgb(0, 0, 0)">
+        <div style="float: left; text-align: left" class="grid_column-2-4">
+          Chăm sóc khách hàng
+          <ul class="footer-list">
+            <li><a href="">Trung tâm trợ giúp</a></li>
+            <li><a href="">Chính sách bảo mật</a></li>
+            <li><a href="">Quy chế hoạt động</a></li>
+          </ul>
+        </div>
+        <div style="float: left; text-align: left" class="grid_column-2-4">
+          <p>Địa chỉ</p>
+          <li><a href="">Cơ sở 1: Hà Nội</a></li>
+          <li><a href="">Cơ sở 2: Tp Hồ Chí Minh</a></li>
+        </div>
+        <div style="float: left; text-align: left" class="grid_column-2-4">
+          <p>Tin tức </p>
+          <li><a href="">Tin tức</a></li>
+          <li><a href="">Phê bình</a></li>
+          <li><a href="">Điểm sách</a></li>
+        </div>
+        <div style="float: left; text-align: left" class="grid_column-2-4">
+          Mạng xã hội
+          <li><a href="">Facebook</a></li>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">Shopee</a></li>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

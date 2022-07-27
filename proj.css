@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  margin: 0px auto;
+  max-width: 960px;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  background-color: rgb(248, 180, 78);
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #f5f5f5;
+  padding: 10px 0px;
+  transition: all 0.5s ease-in-out;
+}
+
+header.sticky {
+  background: #fff;
+  opacity: 0.9;
+}
+header.sticky #logo {
+  color: #000;
+}
+header.sticky #main-menu a {
+  color: #000;
+}
+.inner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul#main-menu {
+  display: flex;
+}
+
+#logo {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+ul#main-menu a {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+}
+/* #banner {
+  background: url(image/banner-sach4.png);
+  min-height: 500px;
+  width: 100%;
+} */
+#content p {
+  margin-bottom: 1.2rem;
+}
+
+ul.menu-child {
+  position: absolute;
+  width: 175px;
+  background-color: rgb(238, 115, 115);
+}
+
+ul.menu-child li {
+  padding: 0 0 0 0;
+  float: none;
+  display: none;
+}
+ul#main-menu li:hover ul.menu-child li {
+  display: block;
+}
+.row {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  /* margin-left: 10px;  */
+  margin-right: 0px;
+padding-top: 100px;
+}
+.hr {
+  margin-left: 300px;
+}
+.row1 {
+  margin-left: 10px;
+}
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  /* margin-left: 10px; */
+}
+.card {
+  margin-left: 20px;
+  width: 300px;
+}
+.col-2th {
+  width: 300px;
+}
+
+.grid {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0px;
+}
+.grid_row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.grid_column-2-4 {
+  padding-left: 5px;
+  padding-right:5px;
+  width: 23%;
+  background-color: rgb(248, 180, 78);
+  color: #000;
+}
+
+#footer {
+  width: 1200px;
+  background-color: #f5f5f5;
+  padding-left: 80px;
+  margin-right: 0x;
+  text-align: center;
+}
+
+#tensach{
+    color:#000;
+    padding-left: 400px;
+}
